@@ -1,0 +1,324 @@
+{
+  "reports": [
+    {
+      "strategy": "random",
+      "runs": 1000,
+      "firstSeed": 1,
+      "lastSeed": 1000,
+      "purchasePolicy": "cheapest affordable first; ID breaks equal-price ties; buy all affordable unowned offers",
+      "rounds": [
+        {
+          "round": 1,
+          "entered": 1000,
+          "cleared": 44,
+          "scoreSum": 8545,
+          "creditsSum": 230,
+          "survivalRate": 0.044,
+          "conditionalClearRate": 0.044,
+          "averageScore": 8.545,
+          "averageCreditsEarned": 0.23
+        },
+        {
+          "round": 2,
+          "entered": 44,
+          "cleared": 3,
+          "scoreSum": 660,
+          "creditsSum": 15,
+          "survivalRate": 0.003,
+          "conditionalClearRate": 0.06818181818181818,
+          "averageScore": 15,
+          "averageCreditsEarned": 0.3409090909090909
+        },
+        {
+          "round": 3,
+          "entered": 3,
+          "cleared": 0,
+          "scoreSum": 45,
+          "creditsSum": 0,
+          "survivalRate": 0,
+          "conditionalClearRate": 0,
+          "averageScore": 15,
+          "averageCreditsEarned": 0
+        },
+        {
+          "round": 4,
+          "entered": 0,
+          "cleared": 0,
+          "scoreSum": 0,
+          "creditsSum": 0,
+          "survivalRate": 0,
+          "conditionalClearRate": null,
+          "averageScore": null,
+          "averageCreditsEarned": null
+        },
+        {
+          "round": 5,
+          "entered": 0,
+          "cleared": 0,
+          "scoreSum": 0,
+          "creditsSum": 0,
+          "survivalRate": 0,
+          "conditionalClearRate": null,
+          "averageScore": null,
+          "averageCreditsEarned": null
+        },
+        {
+          "round": 6,
+          "entered": 0,
+          "cleared": 0,
+          "scoreSum": 0,
+          "creditsSum": 0,
+          "survivalRate": 0,
+          "conditionalClearRate": null,
+          "averageScore": null,
+          "averageCreditsEarned": null
+        },
+        {
+          "round": 7,
+          "entered": 0,
+          "cleared": 0,
+          "scoreSum": 0,
+          "creditsSum": 0,
+          "survivalRate": 0,
+          "conditionalClearRate": null,
+          "averageScore": null,
+          "averageCreditsEarned": null
+        },
+        {
+          "round": 8,
+          "entered": 0,
+          "cleared": 0,
+          "scoreSum": 0,
+          "creditsSum": 0,
+          "survivalRate": 0,
+          "conditionalClearRate": null,
+          "averageScore": null,
+          "averageCreditsEarned": null
+        }
+      ],
+      "averageCreditsEarned": 0.245,
+      "averageCreditsSpent": 0.169,
+      "averageEndingCredits": 0.076,
+      "purchases": [
+        {
+          "id": "double-trouble",
+          "offered": 17,
+          "purchased": 17,
+          "frequencyPerRun": 0.017,
+          "purchaseRateWhenOffered": 1
+        },
+        {
+          "id": "triple-threat",
+          "offered": 18,
+          "purchased": 5,
+          "frequencyPerRun": 0.005,
+          "purchaseRateWhenOffered": 0.2777777777777778
+        },
+        {
+          "id": "straight-shooter",
+          "offered": 20,
+          "purchased": 0,
+          "frequencyPerRun": 0,
+          "purchaseRateWhenOffered": 0
+        },
+        {
+          "id": "crossfire",
+          "offered": 17,
+          "purchased": 7,
+          "frequencyPerRun": 0.007,
+          "purchaseRateWhenOffered": 0.4117647058823529
+        },
+        {
+          "id": "lucky-seven",
+          "offered": 18,
+          "purchased": 14,
+          "frequencyPerRun": 0.014,
+          "purchaseRateWhenOffered": 0.7777777777777778
+        },
+        {
+          "id": "minimalist",
+          "offered": 18,
+          "purchased": 7,
+          "frequencyPerRun": 0.007,
+          "purchaseRateWhenOffered": 0.3888888888888889
+        },
+        {
+          "id": "high-roller",
+          "offered": 17,
+          "purchased": 0,
+          "frequencyPerRun": 0,
+          "purchaseRateWhenOffered": 0
+        },
+        {
+          "id": "multiplier",
+          "offered": 16,
+          "purchased": 0,
+          "frequencyPerRun": 0,
+          "purchaseRateWhenOffered": 0
+        }
+      ],
+      "victories": 0,
+      "victoryRate": 0
+    },
+    {
+      "strategy": "greedy",
+      "runs": 1000,
+      "firstSeed": 1,
+      "lastSeed": 1000,
+      "purchasePolicy": "cheapest affordable first; ID breaks equal-price ties; buy all affordable unowned offers",
+      "rounds": [
+        {
+          "round": 1,
+          "entered": 1000,
+          "cleared": 933,
+          "scoreSum": 62165,
+          "creditsSum": 5598,
+          "survivalRate": 0.933,
+          "conditionalClearRate": 0.933,
+          "averageScore": 62.165,
+          "averageCreditsEarned": 5.598
+        },
+        {
+          "round": 2,
+          "entered": 933,
+          "cleared": 793,
+          "scoreSum": 69955,
+          "creditsSum": 4849,
+          "survivalRate": 0.793,
+          "conditionalClearRate": 0.84994640943194,
+          "averageScore": 74.97856377277598,
+          "averageCreditsEarned": 5.197213290460879
+        },
+        {
+          "round": 3,
+          "entered": 793,
+          "cleared": 664,
+          "scoreSum": 77690,
+          "creditsSum": 4183,
+          "survivalRate": 0.664,
+          "conditionalClearRate": 0.8373266078184111,
+          "averageScore": 97.96973518284993,
+          "averageCreditsEarned": 5.274905422446406
+        },
+        {
+          "round": 4,
+          "entered": 664,
+          "cleared": 484,
+          "scoreSum": 79776,
+          "creditsSum": 3187,
+          "survivalRate": 0.484,
+          "conditionalClearRate": 0.7289156626506024,
+          "averageScore": 120.144578313253,
+          "averageCreditsEarned": 4.799698795180723
+        },
+        {
+          "round": 5,
+          "entered": 484,
+          "cleared": 288,
+          "scoreSum": 65401,
+          "creditsSum": 1835,
+          "survivalRate": 0.288,
+          "conditionalClearRate": 0.5950413223140496,
+          "averageScore": 135.12603305785123,
+          "averageCreditsEarned": 3.791322314049587
+        },
+        {
+          "round": 6,
+          "entered": 288,
+          "cleared": 120,
+          "scoreSum": 42757,
+          "creditsSum": 794,
+          "survivalRate": 0.12,
+          "conditionalClearRate": 0.4166666666666667,
+          "averageScore": 148.46180555555554,
+          "averageCreditsEarned": 2.7569444444444446
+        },
+        {
+          "round": 7,
+          "entered": 120,
+          "cleared": 35,
+          "scoreSum": 19930,
+          "creditsSum": 227,
+          "survivalRate": 0.035,
+          "conditionalClearRate": 0.2916666666666667,
+          "averageScore": 166.08333333333334,
+          "averageCreditsEarned": 1.8916666666666666
+        },
+        {
+          "round": 8,
+          "entered": 35,
+          "cleared": 4,
+          "scoreSum": 5650,
+          "creditsSum": 23,
+          "survivalRate": 0.004,
+          "conditionalClearRate": 0.11428571428571428,
+          "averageScore": 161.42857142857142,
+          "averageCreditsEarned": 0.6571428571428571
+        }
+      ],
+      "averageCreditsEarned": 20.696,
+      "averageCreditsSpent": 18.008,
+      "averageEndingCredits": 2.688,
+      "purchases": [
+        {
+          "id": "double-trouble",
+          "offered": 740,
+          "purchased": 740,
+          "frequencyPerRun": 0.74,
+          "purchaseRateWhenOffered": 1
+        },
+        {
+          "id": "triple-threat",
+          "offered": 1125,
+          "purchased": 662,
+          "frequencyPerRun": 0.662,
+          "purchaseRateWhenOffered": 0.5884444444444444
+        },
+        {
+          "id": "straight-shooter",
+          "offered": 1339,
+          "purchased": 541,
+          "frequencyPerRun": 0.541,
+          "purchaseRateWhenOffered": 0.40403286034353997
+        },
+        {
+          "id": "crossfire",
+          "offered": 896,
+          "purchased": 710,
+          "frequencyPerRun": 0.71,
+          "purchaseRateWhenOffered": 0.7924107142857143
+        },
+        {
+          "id": "lucky-seven",
+          "offered": 811,
+          "purchased": 774,
+          "frequencyPerRun": 0.774,
+          "purchaseRateWhenOffered": 0.9543773119605425
+        },
+        {
+          "id": "minimalist",
+          "offered": 878,
+          "purchased": 611,
+          "frequencyPerRun": 0.611,
+          "purchaseRateWhenOffered": 0.6958997722095672
+        },
+        {
+          "id": "high-roller",
+          "offered": 1608,
+          "purchased": 335,
+          "frequencyPerRun": 0.335,
+          "purchaseRateWhenOffered": 0.20833333333333334
+        },
+        {
+          "id": "multiplier",
+          "offered": 1920,
+          "purchased": 117,
+          "frequencyPerRun": 0.117,
+          "purchaseRateWhenOffered": 0.0609375
+        }
+      ],
+      "victories": 4,
+      "victoryRate": 0.004
+    }
+  ]
+}
